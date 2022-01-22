@@ -1,0 +1,143 @@
+body,h1,h2,h3,h4,h5,p,span,a,strong{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*Header section start*/
+.header-section{
+    background: #192a56;
+}
+.header-logo{}
+.header-logo img{
+    width: 100px;
+}
+.header-menu{}
+.header-menu ul{
+    list-style: none;
+}
+.header-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 34px;
+    display: inline-block;
+    transition: .5s;
+}
+.header-menu ul li a:hover{
+    color: #dcdde1;
+    background: black;
+    border-radius: 10px;
+}
+
+/*Header section end*/
+/*Banner-section start*/
+/*.banner-section {
+    background: url(https://i.ibb.co/5WM7YX0/intro-bg.jpg) no-repeat top;
+    background-size: cover;
+    padding: 420px 0px 294px 0px;
+    margin-top: -210px;   
+}*/
+.banner-section {
+    background: url(img/intro-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px 0px;
+   
+}
+.banner-info{}
+.banner-info h2{
+    color: white;
+    margin-bottom: 42px;
+    font-size: 41px;
+}
+.banner-info p{
+    color: white;
+    margin-bottom: 37px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.banner-info button{}
+/*Banner-section end*/
+/*Our team section start*/
+.team-section{
+    background: #BAC1F3;
+    padding: 100px 0px;
+}
+.team-section h1{
+    font-size: 61px;
+}
+.team-item{}
+.team-item img{}
+.team-item h4{}
+.team-item p{}
+.team-item button{}
+/*Our team section end*/
+/*About section start*/
+.about-section{
+    background: #C2D4EA;
+    padding: 100px 0px;
+}
+.about-section h1{
+    font-size: 64px;
+    font-weight: 400;
+}
+.about-left{}
+.about-left p{}
+.about-img{}
+.about-img img{}
+.about-info{}
+.about-info span{
+    display: BLOCK;
+    font-size: 18px;
+    color: slategray;
+    margin-bottom: 6px;
+}
+
+
+.about-right{
+}
+.about-right h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 13px;
+}
+.about-right p{
+    color: slategrey;
+}
+.extra-p{
+    font-size: 22px;
+    color: #000000ba!important;
+}
+/*About section end*/
+/*Contact section start*/
+.contact-section{
+    background: #F5F5F5;
+    padding: 80px 0px;
+}
+.contact-section h1 {
+    font-size: 65px;
+    font-weight: 400;
+}
+.contact-form{}
+.contact-form label {
+    font-weight: 700;
+}
+/*Contact section end*/
+/*Footer section start*/
+.footer-section{
+    background: #0984e3;
+    text-align: center;
+    padding: 27px;
+}
+.footer-section p{
+    color: white;
+    font-size: 21px;
+    margin: 0px;
+}
+.footer-section p span{
+    font-weight: 600;
+}
+/*Footer section end*/
